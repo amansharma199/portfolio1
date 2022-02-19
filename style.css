@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.main_header{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('bg.jpg');
+	background-size: cover;
+}
+
+.navbar{
+	width: 100%;
+	height: 70px;
+	display: flex;
+}
+
+.navbar .logo{
+	width: 30%;
+	line-height: 70px;
+	font-weight: 700;
+	font-size: 25px;
+	color: #fff;
+	margin-left: 100px;
+}
+
+.menu_btn{
+	width: 70%;
+	line-height: 70px;
+	text-align: right;
+	margin-right: 100px
+}
+
+.menu_btn ul{
+	list-style-type: none; 
+}
+
+.menu_btn li{
+	display: inline;
+	padding: 6px 20px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.menu_btn li:hover{
+	background-color: black;
+	transition: 0.5s ease;
+	border: none;
+	border: none;
+}
+
+.body_part{
+	width: 100%;
+	height: auto;
+}
+
+.body_part .about_me{
+	text-align: center;
+	color: #fff;
+	margin-top: 100px;
+}
+
+.body_part .about_me h1{
+	font-size: 50px;
+}
+
+.body_part .about_me span{
+	color: #F4623A
+}
+
+.hr{
+	width: 100px;
+	height: 3px;
+	background-color: #F4623A;
+	margin: 30px auto 30px auto;
+}
+
+.about_des{
+	width: 60%;
+	height: auto;
+	margin: 20px auto;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.download_btn{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.download_btn button{
+	padding: 10px 30px;
+	margin: 0 20px;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.download_btn .cv_btn{
+	background-color: #F4623A;
+	color: white;
+}
+
+.download_btn .cv_btn:hover{
+	background-color: #cf5331;
+	transition: 0.5s ease;
+}
+
+.download_btn .learn_more:hover{
+	transition: 0.5s ease;
+}
+
+/******************************** page 2 ***********************/
+
+.page2{
+	width: 100%;
+	height: 400px;
+	background-color: #F4623A;
+}
