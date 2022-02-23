@@ -263,9 +263,7 @@
 
 
 
-/**********************page 1 resposive code ********************/
-
-
+/**********************page 1 resposive code end ********************/
 
 
 
@@ -273,6 +271,295 @@
 
 .page2{
 	width: 100%;
-	height: 400px;
 	background-color: #F4623A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 20px;
+}
+
+.page2 h1{
+	color: #fff;
+	margin: 100px 0 10px 0;
+}
+
+.page2 .hr{
+	width: 80px;
+	height: 3px;
+	background-color: #fff;
+	margin: 25px auto;
+}
+
+.page2 p{
+	color: #f7f7f7;
+	width: 50%;
+}
+
+.page2 button{
+	font-size: 15px;
+	padding: 20px 40px;
+	margin: 30px 20px;
+	border: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 30px;
+	transition: 0.3s ease;
+	margin-bottom: 120px;
+}
+
+/******************page 2 responsive code start ***********/
+
+
+.page2 p{
+	width: 90%;
+}
+
+
+/******************page 2 responsive code end ***********/
+
+/*************page 3 start ************/
+
+.page3{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.page3 h1{
+	margin-top:120px;
+}
+
+.page3 .hr{
+	margin-bottom: 40px;
+}
+
+.service_section{
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 40px 20px 100px 20px;
+}
+
+.service_card{
+	width: 220px;
+	height: 200px;
+	margin: 0 20px;
+}
+
+.service_card .fa{
+	width: 50px;
+	height: 50px;
+	color: #F4623A;
+	font-size: 50px;
+	margin: 20px 0;
+}
+.service_card h2{
+	font-weight: 400;
+}
+
+.service_card p{
+	font-weight: 300;
+	color: #6c757d;
+	margin: 10px 0;
+}
+
+
+/************page 3 responsive code start ************/
+@media only screen and (max-width: 960px){
+
+.service_section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 40px 20px 100px 20px;
+}
+}
+.service_card{
+	width: 300px;
+	height: 250px;
+	margin: 0 20px;
+}
+
+
+/***********page 3 responsive code end***************/
+
+/*************page 3 start end ************/
+
+/*************page 4 start  start ************/
+
+.page4{
+	width: 100%;
+	background-color: #212529;
+}
+
+.page4 .project_sec{
+	width: 100%;
+	column-count: 3;
+	column-gap: 0;
+}
+
+/*.page4 .project_img :hover{
+	width: 100%;
+	height: 250px;
+	background-color: red;
+	z-index: 5;
+}*/
+
+.page4 .project_img img{
+	width: 100%;
+	height: 250px;
+	background-size: cover;
+}
+
+
+.page4_cvdownload{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.page4 h1{
+	color: #fff;
+	font-weight: 400;
+	margin:80px 0 30px 0;
+}
+
+.page4 .cv_btn{
+	padding: 25px 55px;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+	margin-bottom: 100px;
+	border-radius: 40px; 
+	transition: 0.3s ease;
+}
+
+
+/*************page 4 start  end ************/
+
+/*********page 4 responsive code start************/
+@media only screen and (max-width: 960px){
+.page4 .project_sec{
+	width: 100%;
+	column-count: 1;
+	column-gap: 0;
+}
+}
+/*page 4 responsive code end********************/
+
+
+/**********page 5 code start *********/
+.page5{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.page5 h1{
+	margin-top: 100px;
+	font-weight: 400;
+}
+
+.page5 .hr{
+	margin-bottom: 20px;
+}
+
+.page5 h2{
+	font-size: 15px;
+	font-weight: 300; 
+	color: #6c757d;
+}
+
+.page5 .form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 30px 0;
+}
+
+.page5 .form input{
+	width: 500px;
+	padding: 15px 20px;
+	border: 1px solid #6c757d
+	border-radius: 5px;
+	margin: 10px 0;
+	color: black;
+}
+
+.page5 .form textarea{
+	width: 500px;
+	padding: 15px 20px;
+}
+
+.page5 .form button{
+	width: 500px;
+	padding: 20px 25px;
+	margin: 25px 0;
+	color: #fff;
+	background-color: #F7987E;
+	border: none;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.page5 .contact_us {
+	margin-bottom: 50px;
+}
+
+.page5 .contact_us .fa{
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	color: #f7987e;
+}
+/**********page 5 code end************/
+
+/*********page 5 responiv code start***********/
+
+.page5 .form input{
+	width: 300px;
+	padding: 10px 20px;
+}
+
+.page5 .form textarea{
+	width: 300px;
+	padding: 10px 20px;
+}
+
+.page5 .form button{
+	width: 300px;
+	padding: 15px 25px;
+}
+
+/*********page 5 responiv code end***********/
+
+
+/********footer************/
+
+.footer{
+	width: 100%;
+	background-color: #F8F9FA;
+}
+
+.footer h4{
+	color: #6c757d;
+	font-weight: 300;
+	text-align: center;
+	padding: 30px 0;
 }
